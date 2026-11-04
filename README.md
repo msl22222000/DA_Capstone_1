@@ -71,26 +71,26 @@ Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num
 
 ## Recommendation
 
-[Summarize in 3 to 5 sentences where sales efforts should focus next quarter and the evidence supporting it.]
+Will Provide a more details
 
 ## Repository Contents
 
 | File | Description |
 |---|---|
 | `README.md` | Project documentation |
-| `[lastname]_sales_analysis.sql` | SQL queries and recommendation |
-| `[lastname]_territory_chart.xlsx` | Excel workbook with the PivotChart |
-| `[lastname]_bonus_queries.sql` | Optional bonus queries |
+| `[Lalmi_sales_analysis.sql` | SQL queries and recommendation |
+| `Lalmi_territory_chart.xlsx` | Excel workbook with the PivotChart |
+| `Lalmi_bonus_queries.sql` | Optional bonus queries |
 
 ## How to Reproduce
 
 1. Run `sample_sales.sql` in MySQL Workbench to create the database.
-2. Open `[lastname]_sales_analysis.sql` and run the queries in order.
-3. Open `[lastname]_territory_chart.xlsx` to view the PivotChart.
+2. Open `Lalmi_sales_analysis.sql` and run the queries in order.
+3. Open `Lalmi_territory_chart.xlsx` to view the PivotChart.
 
 ## Video Walkthrough
 
-[Watch the project walkthrough](Link will be provided once its completed)
+Watch the project walkthrough (Link will be provided once its completed)
 
 ## Contact
 
