@@ -1,11 +1,14 @@
 # DA_Capstone_1
 # Capstone 1: EmporiUm Sales Territory Analysis
 
-**Author:** Mohammed Sohaib Lalmi
-**Course:** DATA BOOTCAMP, YearUP United
-**Instructor:** Nigel Caldon
-**Date:** November 2026
-**Sales Territory Analyzed:** West Colorado (West Region)
+| | |
+|---|---|
+| **Author** | Mohammed Sohaib Lalmi |
+| **Course** | DATA BOOTCAMP, YearUP United |
+| **Instructor** | Nigel Caldon |
+| **Date** | November 2026 |
+| **Sales Territory Analyzed** | West Colorado (West Region) |
+
 
 ---
 
