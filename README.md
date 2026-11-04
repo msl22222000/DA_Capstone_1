@@ -95,5 +95,5 @@ Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num
 ## Contact
 
  Mohammed Sohaib Lalmi \
- mlalmi@my.yearupunited.org \
+ mlalmi@my.yearupunited.org 
   
