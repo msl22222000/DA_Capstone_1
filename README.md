@@ -102,7 +102,7 @@ Colorado is a healthy and growing territory: $6.4M in in-store revenue over four
 3. Open `lalmi_colorado_chart.xlsx` to view the PivotTable and PivotChart.
 
 ## Video Walkthrough
-https://yearuptemp-my.sharepoint.com/personal/mlalmi_my_yearupunited_org/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmlalmi%5Fmy%5Fyearupunited%5Forg%2FDocuments%2FVideos%2FClipchamp%2FVideo%20Project%202%2FExports%2Flalmi%5Fcapstone1%5Fvideo%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb6234c9f%2Ddc61%2D4d51%2D8b10%2D08103d8ee6e8
+https://yearuptemp-my.sharepoint.com/:v:/g/personal/mlalmi_my_yearupunited_org/IQDZHIZu2AhcRoBNZ6eDdr51AdByoVW2_YgKQolXaE8t10E?e=flFJ1E&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJjMjAyZjlhOC0xNjliLTQ0NjYtYjQxYi1kZDE0ZGU0Y2U4NjIifX0%3D
 
 
 ## Contact
