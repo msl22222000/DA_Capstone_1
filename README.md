@@ -69,8 +69,6 @@ Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num
 | 4 | Monthly transactions and average amount by category | **Technology & Accessories** brings in about **$4.55M (71%)** of revenue and has the highest average sale, about **$464**. |
 | 5 | Store performance ranking | **Denver** (about $917K) and **Greeley** (about $640K) lead and together make up about 24% of revenue. The other 16 stores earn between about **$279K and $345K** each. The Colorado average is about $356K per store. |
 
-![Colorado State Total Revenue From 2022-2025](Picture1.png)
-
 ## Recommendation
 
 Focus next quarter on **Technology & Accessories in the lower-performing Colorado stores** (for example Parker, Wheat Ridge, Berthoud and Milliken), and have stock and promotions ready before the strongest months (July, August and October).
