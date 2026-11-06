@@ -7,7 +7,7 @@
 | **Course** | DATA BOOTCAMP, YearUP United |
 | **Instructor** | Nigel Caldon |
 | **Date** | November 2026 |
-| **Sales Territory Analyzed** | West Colorado (West Region) |
+| **Sales Territory Analyzed** |  Colorado (West Region) |
 
 
 ---
