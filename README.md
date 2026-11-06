@@ -1,99 +1,45 @@
-# DA_Capstone_1
 # Capstone 1: EmporiUm Sales Territory Analysis
 
-| | |
-|---|---|
-| **Author** | Mohammed Sohaib Lalmi |
-| **Course** | DATA BOOTCAMP, YearUP United |
-| **Instructor** | Nigel Caldon |
-| **Date** | November 2026 |
-| **Sales Territory Analyzed** |  Colorado (West Region) |
+**Author:** Mohammed Sohaib Lalmi | **Course:** DATA BOOTCAMP, YearUp United | **Instructor:** Nigel Caldon | **Date:** November 2026
+**Territory:** Colorado (in-store sales), West Region
 
+## Overview
 
----
+EmporiUm is a student-focused retail chain selling books, technology and art supplies. Using SQL (MySQL Workbench) and Excel, I analyzed Colorado's 18 stores in the `sample_sales` database and recommend where to focus sales efforts next quarter.
 
-## Project Overview
+## Key Findings
 
-EmporiUm is a student-focused retail chain that sells books, technology products and art supplies through physical stores and an online channel. This project analyzes sales performance for  **Colorado** sales territory, which belongs to the company's **West** region. Using SQL and Excel, I answer a set of business questions posed by the sales manager and recommend where sales efforts should be focused in the next quarter.
-
-## Business Objectives
-
-- Measure total revenue and identify the period the data covers.
-- Understand how revenue changes by year and by month.
-- Compare West Colorado's performance with the West region as a whole.
-- Analyze transaction volume and average transaction value by product category.
-- Rank stores by performance.
-- Provide a data-supported recommendation for the next quarter.
-
-## Tools and Technologies
-
-| Tool | Purpose |
-|---|---|
-| MySQL / MySQL Workbench | Querying the `sample_sales` database |
-| Microsoft Excel | PivotTables and PivotCharts |
-| Git and GitHub | Version control and project submission |
-| Visual Studio Code | Editing scripts and documentation |
-
-## Dataset
-
-The analysis uses the `sample_sales` database, which contains eight tables:
-
-| Table | Description |
-|---|---|
-| `Store_Sales` | In-store transactions |
-| `Online_Sales` | Online transactions |
-| `Products` | Product details |
-| `Inventory_Categories` | Product categories |
-| `Inventory_Subcategories` | Product subcategories |
-| `Store_Locations` | Store names and states |
-| `Management` | Regions, directors and sales managers |
-| `Shipper_List` | Shipping information |
-
-Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num`/`ProdNum` and `Categoryid`.
-
-## Methodology
-
-1. Loaded the database by running `sample_sales.sql` in MySQL Workbench.
-2. Explored each table's structure and relationships.
-3. Wrote SQL queries to answer each business question, using joins, aggregation and grouping.
-4. Exported query results to CSV and built a PivotChart in Excel.
-5. Interpreted the results and formulated a recommendation.
-
-## Key Questions and Findings
-
-| # | Question | Summary of Finding |
+| # | Question | Finding |
 |---|---|---|
-| 1 | Total revenue and date range | [Add your finding] |
-| 2 | Revenue by year and month | [Add your finding] |
-| 3 | Territory vs. region revenue | [Add your finding] |
-| 4 | Monthly transactions and average amount by category | [Add your finding] |
-| 5 | Store performance ranking | [Add your finding] |
+| 1 | Total revenue and dates | **$6,412,632.22** from Jan 1, 2022 to Dec 31, 2025 (46,498 transactions) |
+| 2 | Revenue by year and month | Grew from about **$1.0M (2022)** to **$2.4M (2025)**; peak month Oct 2025 (about $331K) |
+| 3 | Colorado vs. West region | Colorado is about **8.6%** of the West's $74.4M; the rest is the Online territory, so this is a benchmark only |
+| 4 | Transactions and average sale by category | **Technology & Accessories** is about **71%** of revenue ($4.55M) with the highest average sale (about $464) |
+| 5 | Store ranking | **Denver** (about $917K) and **Greeley** (about $640K) lead; the other 16 stores earn $279K-$345K |
+
+![Colorado revenue by month and year](Picture1.png)
 
 ## Recommendation
 
-Will Provide a more details
+Focus next quarter on **Technology & Accessories in the lower-performing Colorado stores** (e.g. Parker, Wheat Ridge, Berthoud, Milliken), with stock and promotions ready before July, August and October.
 
-## Repository Contents
+- Revenue is growing, so demand is rising.
+- Technology is 71% of revenue and has the highest average sale.
+- The 16 smaller stores earn far less than Denver and Greeley, so they have the most room to grow.
+
+The data shows where the opportunity is, not why or whether a promotion will work, so I would test it in a few stores and ask the managers what Denver and Greeley do differently.
+
+## Files
 
 | File | Description |
 |---|---|
-| `README.md` | Project documentation |
-| `[Lalmi_sales_analysis.sql` | SQL queries and recommendation |
-| `Lalmi_territory_chart.xlsx` | Excel workbook with the PivotChart |
+| `Lalmi_sales_analysis.sql` | SQL queries and recommendation |
+| `Lalmi_territory_chart.xlsx` | Excel PivotChart |
 | `Lalmi_bonus_queries.sql` | Optional bonus queries |
 
-## How to Reproduce
+**To reproduce:** run `sample_sales.sql` in MySQL Workbench, then run `Lalmi_sales_analysis.sql` in order, then open the Excel file.
 
-1. Run `sample_sales.sql` in MySQL Workbench to create the database.
-2. Open `Lalmi_sales_analysis.sql` and run the queries in order.
-3. Open `Lalmi_territory_chart.xlsx` to view the PivotChart.
+**Video walkthrough:** *(link coming soon)*
 
-## Video Walkthrough
-
-Watch the project walkthrough (Link will be provided once its completed)
-
-## Contact
-
- Mohammed Sohaib Lalmi \
- mlalmi@my.yearupunited.org 
+**Contact:** mlalmi@my.yearupunited.org 
   
