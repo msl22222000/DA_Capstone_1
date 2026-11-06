@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-EmporiUm is a student-focused retail chain that sells books, technology products and art supplies through physical stores and an online channel. This project analyzes sales performance for the **West Colorado** sales territory, which belongs to the company's **West** region. Using SQL and Excel, I answer a set of business questions posed by the sales manager and recommend where sales efforts should be focused in the next quarter.
+EmporiUm is a student-focused retail chain that sells books, technology products and art supplies through physical stores and an online channel. This project analyzes sales performance for  **Colorado** sales territory, which belongs to the company's **West** region. Using SQL and Excel, I answer a set of business questions posed by the sales manager and recommend where sales efforts should be focused in the next quarter.
 
 ## Business Objectives
 
