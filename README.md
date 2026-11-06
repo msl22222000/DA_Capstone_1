@@ -1,45 +1,110 @@
+# DA_Capstone_1
 # Capstone 1: EmporiUm Sales Territory Analysis
 
-**Author:** Mohammed Sohaib Lalmi | **Course:** DATA BOOTCAMP, YearUp United | **Instructor:** Nigel Caldon | **Date:** November 2026
-**Territory:** Colorado (in-store sales), West Region
+| | |
+|---|---|
+| **Author** | Mohammed Sohaib Lalmi |
+| **Course** | DATA BOOTCAMP, YearUp United |
+| **Instructor** | Nigel Caldon |
+| **Date** | November 2026 |
+| **Sales Territory Analyzed** | Colorado (West Region) |
 
-## Overview
+---
 
-EmporiUm is a student-focused retail chain selling books, technology and art supplies. Using SQL (MySQL Workbench) and Excel, I analyzed Colorado's 18 stores in the `sample_sales` database and recommend where to focus sales efforts next quarter.
+## Project Overview
 
-## Key Findings
+EmporiUm is a student-focused retail chain that sells books, technology products and art supplies through physical stores and an online channel. This project analyzes in-store sales performance for the **Colorado** sales territory (18 stores), which belongs to the company's **West** region. Using SQL and Excel, I answer a set of business questions posed by the sales manager and recommend where sales efforts should be focused in the next quarter.
 
-| # | Question | Finding |
+## Business Objectives
+
+- Measure total revenue and identify the period the data covers.
+- Understand how revenue changes by year and by month.
+- Compare Colorado's performance with the West region as a whole.
+- Analyze transaction volume and average transaction value by product category.
+- Rank stores by performance.
+- Provide a data-supported recommendation for the next quarter.
+
+## Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| MySQL / MySQL Workbench | Querying the `sample_sales` database |
+| Microsoft Excel | PivotTables and PivotCharts |
+| Git and GitHub | Version control and project submission |
+| Visual Studio Code | Editing scripts and documentation |
+
+## Dataset
+
+The analysis uses the `sample_sales` database, which contains eight tables:
+
+| Table | Description |
+|---|---|
+| `Store_Sales` | In-store transactions |
+| `Online_Sales` | Online transactions |
+| `Products` | Product details |
+| `Inventory_Categories` | Product categories |
+| `Inventory_Subcategories` | Product subcategories |
+| `Store_Locations` | Store names and states |
+| `Management` | Regions, directors and sales managers |
+| `Shipper_List` | Shipping information |
+
+Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num`/`ProdNum` and `Categoryid`.
+
+## Methodology
+
+1. Loaded the database by running `sample_sales.sql` in MySQL Workbench.
+2. Explored each table's structure and relationships.
+3. Wrote SQL queries to answer each business question, using joins, aggregation, grouping and subqueries.
+4. Exported the Question 2 results to Excel and built a PivotTable and PivotChart.
+5. Checked the results: the 48 monthly totals add up to the Question 1 total, and the transaction counts by category add up to 46,498.
+6. Interpreted the results and formulated a recommendation.
+
+## Key Questions and Findings
+
+| # | Question | Summary of Finding |
 |---|---|---|
-| 1 | Total revenue and dates | **$6,412,632.22** from Jan 1, 2022 to Dec 31, 2025 (46,498 transactions) |
-| 2 | Revenue by year and month | Grew from about **$1.0M (2022)** to **$2.4M (2025)**; peak month Oct 2025 (about $331K) |
-| 3 | Colorado vs. West region | Colorado is about **8.6%** of the West's $74.4M; the rest is the Online territory, so this is a benchmark only |
-| 4 | Transactions and average sale by category | **Technology & Accessories** is about **71%** of revenue ($4.55M) with the highest average sale (about $464) |
-| 5 | Store ranking | **Denver** (about $917K) and **Greeley** (about $640K) lead; the other 16 stores earn $279K-$345K |
+| 1 | Total revenue and date range | Colorado in-store revenue is **$6,412,632.22** from **January 1, 2022 to December 31, 2025**, across 46,498 transactions. This is the main KPI. |
+| 2 | Revenue by year and month | Revenue grew from about **$1.0M in 2022** to **$2.4M in 2025**. October 2025 was the highest month at about **$331K**. July and August were above June in all four years. |
+| 3 | Territory vs. region revenue | Colorado ($6.41M) is about **8.6%** of the West region ($74.4M). The rest is the Online Sales territory (about $68.0M), which sells to many states, so this is a benchmark for size, not a sign of poor performance. |
+| 4 | Monthly transactions and average amount by category | **Technology & Accessories** brings in about **$4.55M (71%)** of revenue and has the highest average sale, about **$464**. |
+| 5 | Store performance ranking | **Denver** (about $917K) and **Greeley** (about $640K) lead and together make up about 24% of revenue. The other 16 stores earn between about **$279K and $345K** each. The Colorado average is about $356K per store. |
 
-![Colorado revenue by month and year](Picture1.png)
+![Colorado State Total Revenue From 2022-2025](Picture1.png)
 
 ## Recommendation
 
-Focus next quarter on **Technology & Accessories in the lower-performing Colorado stores** (e.g. Parker, Wheat Ridge, Berthoud, Milliken), with stock and promotions ready before July, August and October.
+Focus next quarter on **Technology & Accessories in the lower-performing Colorado stores** (for example Parker, Wheat Ridge, Berthoud and Milliken), and have stock and promotions ready before the strongest months (July, August and October).
 
-- Revenue is growing, so demand is rising.
-- Technology is 71% of revenue and has the highest average sale.
-- The 16 smaller stores earn far less than Denver and Greeley, so they have the most room to grow.
+1. **Demand is rising.** Revenue grew from $1.0M in 2022 to $2.4M in 2025.
+2. **One category drives the business.** Technology & Accessories is 71% of revenue and has the highest average sale.
+3. **The smaller stores have the most room to grow.** Denver and Greeley carry about 24% of revenue, while each of the other 16 stores earns only about 4-5%. The average sale is similar across stores, so the gap is the number of transactions, not price.
 
-The data shows where the opportunity is, not why or whether a promotion will work, so I would test it in a few stores and ask the managers what Denver and Greeley do differently.
+If the weaker stores move closer to the Colorado average of about $356K per store, the territory grows without opening new stores.
 
-## Files
+## Conclusion
+
+Colorado is a healthy and growing territory: $6.4M in in-store revenue over four years, with 2025 about 2.4 times higher than 2022. Revenue is concentrated in one category (Technology & Accessories) and two stores (Denver and Greeley). The other 16 stores sit close together, so lifting technology sales there is the most direct way to grow. The data shows where the opportunity is, not why. I would test the plan in a few stores first and ask the store managers what Denver and Greeley do differently.
+
+## Repository Contents
 
 | File | Description |
 |---|---|
+| `README.md` | Project documentation |
 | `Lalmi_sales_analysis.sql` | SQL queries and recommendation |
-| `Lalmi_territory_chart.xlsx` | Excel PivotChart |
+| `Lalmi_territory_chart.xlsx` | Excel workbook with the PivotChart |
 | `Lalmi_bonus_queries.sql` | Optional bonus queries |
 
-**To reproduce:** run `sample_sales.sql` in MySQL Workbench, then run `Lalmi_sales_analysis.sql` in order, then open the Excel file.
+## How to Reproduce
 
-**Video walkthrough:** *(link coming soon)*
+1. Run `sample_sales.sql` in MySQL Workbench to create the database.
+2. Open `Lalmi_sales_analysis.sql` and run the queries in order.
+3. Open `Lalmi_territory_chart.xlsx` to view the PivotChart.
 
-**Contact:** mlalmi@my.yearupunited.org 
-  
+## Video Walkthrough
+
+Watch the project walkthrough (link will be provided once it is completed)
+
+## Contact
+
+Mohammed Sohaib Lalmi  
+mlalmi@my.yearupunited.org
