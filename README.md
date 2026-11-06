@@ -30,6 +30,7 @@ EmporiUm is a student-focused retail chain that sells books, technology products
 |---|---|
 | MySQL / MySQL Workbench | Querying the `sample_sales` database |
 | Microsoft Excel | PivotTables and PivotCharts |
+| Microsoft PowerPoint | Final presentation |
 | Git and GitHub | Version control and project submission |
 | Visual Studio Code | Editing scripts and documentation |
 
@@ -52,10 +53,10 @@ Tables are connected through shared keys such as `Store_ID`/`StoreId`, `Prod_Num
 
 ## Methodology
 
-1. Loaded the database by running `sample_sales.sql` in MySQL Workbench.
+1. Loaded the database by running `sample_sales_all` in MySQL Workbench.
 2. Explored each table's structure and relationships.
 3. Wrote SQL queries to answer each business question, using joins, aggregation, grouping and subqueries.
-4. Exported the Question 2 results to Excel and built a PivotTable and PivotChart.
+4. Exported the Question 2 results to CSV and built a PivotTable and PivotChart in Excel.
 5. Checked the results: the 48 monthly totals add up to the Question 1 total, and the transaction counts by category add up to 46,498.
 6. Interpreted the results and formulated a recommendation.
 
@@ -88,15 +89,17 @@ Colorado is a healthy and growing territory: $6.4M in in-store revenue over four
 | File | Description |
 |---|---|
 | `README.md` | Project documentation |
-| `Lalmi_sales_analysis.sql` | SQL queries and recommendation |
-| `Lalmi_territory_chart.xlsx` | Excel workbook with the PivotChart |
-| `Lalmi_bonus_queries.sql` | Optional bonus queries |
+| `lalmi_sales_analysis.sql` | SQL queries and recommendation |
+| `lalmi_colorado_pivot table.csv` | Exported query results used for the PivotTable |
+| `lalmi_colorado_chart.xlsx` | Excel workbook with the PivotTable and PivotChart |
+| `lalmi_colorado_presentation.pptx` | Final presentation |
+| `sample_sales_all` | Script that creates the `sample_sales` database |
 
 ## How to Reproduce
 
-1. Run `sample_sales.sql` in MySQL Workbench to create the database.
-2. Open `Lalmi_sales_analysis.sql` and run the queries in order.
-3. Open `Lalmi_territory_chart.xlsx` to view the PivotChart.
+1. Run `sample_sales_all` in MySQL Workbench to create the database.
+2. Open `lalmi_sales_analysis.sql` and run the queries in order.
+3. Open `lalmi_colorado_chart.xlsx` to view the PivotTable and PivotChart.
 
 ## Video Walkthrough
 
